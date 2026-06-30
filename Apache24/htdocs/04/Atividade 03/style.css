@@ -1,0 +1,23 @@
+.formatar01 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+}
+.formatar02 {
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font- size: 22px;
+}
+   
+.formatar03 {
+    font-family: comic sans ms, cursive, sans-serif;
+    color: blue;
+    font-size: 20px;    
+    font-style: italic;   
+}
+.formatar04 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    font-size: 14px;   
+    font-style: bold;
+    font-weight: medium;
+}

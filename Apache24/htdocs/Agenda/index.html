@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" type="text/css" href="public/css/styles.css">
+</head>
+
+<body> 
+
+<div class="agenda"> 
+
+    <div class="login_esquerda">
+        <img src="public/img/login 2.png" style="margin-left: 35px;" width="200px" height="200px">  
+        <h1>Agenda <br> Eletrônica </h1>    
+        <h2>Sua vida organizada, seus contatos <br> sempre a mão</h2>    
+    </div>   
+    
+    <div class="login_direita">
+        <div class="card-login">
+            <h3>Bem-vindo de volta!</h3>
+            <p>Entre com suas credenciais para acessar sua conta</p>
+
+            <form action="app/controllers/login.php" method="post">
+
+                <label>E-mail</label>
+                <input type="text" name="email" placeholder="seu@email.com" required>
+
+                <label>Senha</label>
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
+
+                <button type="submit">Entrar</button>
+
+                <div class="options">             
+                    <label>
+                        <input type="checkbox" name="lembrar" class="check">
+                        Lembrar-me
+                    </label>
+
+                    <a href="#">Esqueceu sua senha?</a>
+
+                    <p class="cadastro">
+                        Não tem uma conta?
+                        <a href="cadastrar.html">Cadastre-se</a>
+                    </p>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

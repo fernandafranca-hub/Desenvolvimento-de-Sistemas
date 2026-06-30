@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Geral</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>   
+
+    <form class="dados-cadastro">
+        <img src="imagens/1.jpg" alt="imagem de cadastro">
+
+        <fieldset>
+            <legend>Cadastro Geral</legend>
+            <div class="dados">
+
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+
+                    Nome completo:<br>
+                    <input type="text"><br><br>
+
+                    Profissão:<br>
+                    <select style="font-size: 14px; font-family: Arial, Helvetica, sans-serif;">
+                        <option>Sua Profissão</option>
+                        <option>Designer</option>
+                        <option>Desenvolvedor</option>
+                        <option>Analista</option>
+                    </select>
+                </fieldset>
+            </div>          
+            
+                <fieldset class="localizacao">
+                    <legend>Localização</legend>
+
+                    E-mail:<br>
+                    <input type="email"><br><br>
+
+                    Rua:<br>
+                    <input type="text">
+                </fieldset>
+                       
+                <fieldset class="idade">
+                    <legend>Faixa etária</legend>
+
+                    <input type="radio" name="idade"> até 20 anos<br>
+                    <input type="radio" name="idade"> mais de 20 até 30 anos<br>
+                    <input type="radio" name="idade"> mais de 30 até 40 anos<br>
+                    <input type="radio" name="idade"> mais de 40 até 50 anos<br>
+                    <input type="radio" name="idade"> mais de 50 até 60 anos<br>
+                    <input type="radio" name="idade"> mais de 60<br>
+                </fieldset>
+            
+                <fieldset class="esportes">
+                    <legend>Esportes que pratica</legend>
+
+                    <input type="checkbox"> Futebol de campo<br>
+                    <input type="checkbox"> Futebol de salão<br>
+                    <input type="checkbox"> Futebol society<br>
+                    <input type="checkbox"> Vôlei de quadra<br>
+                    <input type="checkbox"> Vôlei de praia<br>
+                    <input type="checkbox"> Natação em piscina<br>
+                    <input type="checkbox"> Natação em mar aberto<br>
+                </fieldset>
+            
+            <fieldset class="comentario">
+                <legend>Comentário</legend>
+
+                Mensagem:<br>
+                <textarea rows="6" cols="50" style="overflow-y: scroll; resize: none;">
+        </textarea>
+            </fieldset>
+
+            <br>
+            
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

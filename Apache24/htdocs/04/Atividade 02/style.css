@@ -1,0 +1,44 @@
+.fundo {
+    background-color: lightblue;
+}
+
+.paragrafo01 {
+ background-color: lightgreen;   
+}
+
+.sec01 {
+    background-image: url(imagens/imagem\ 01.jpg);
+    width: 300px;
+<<<<<<< HEAD
+    height: 500px; 
+    background-repeat: repeat;
+    background-attachment: fixed; 
+=======
+    height: 500px;  
+>>>>>>> a4930b62eb26a2df7be6694adf3b7fa4cc4c5d2d
+}
+
+.sec02 {
+    background-image: url(imagens/imagem\ 02.jpg);
+    width: 300px;
+    height: 500px;
+    background-repeat: repeat-y;
+<<<<<<< HEAD
+}
+.sec03 {
+    background-image: url(imagens/imagem\ 03.jpg);
+    width: 300px;
+    height: 500px; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec04 {
+    background-color: yellow;
+    background-image: url(imagens/imagem\ 04.jpg);
+    width: 300px;
+    height: 500px; 
+    background-repeat: no-repeat;
+    background-attachment: sc;
+=======
+>>>>>>> a4930b62eb26a2df7be6694adf3b7fa4cc4c5d2d
+}

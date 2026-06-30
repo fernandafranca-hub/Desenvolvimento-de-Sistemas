@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" type="text/css" href="public/css/styles.css">
+</head>
+<body> 
+    <div class="agenda"> 
+   
+
+        <div class="login_esquerda">
+            <img src="public/img/login 2.png" style="margin-left: 35px;" width="200px" height="200px">  
+            <h1>Agenda <br> Eletrônica </h1>    
+            <h2>Sua vida organizada, seus contatos <br> sempre a mão</h2>    
+        </div>   
+        
+       <div class="login_direita">        
+            <h3>Cadastre-se</h3>    
+
+            <form action="app/controllers/cadastrar_usuario.php" method="post">
+
+                <table>
+                    <tr>
+                        <td><label>Nome</label></td>
+                        <td><input type="text" name="nome"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>E-mail</label></td>
+                        <td>
+                            <input type="text" name="email" placeholder="seu@email.com" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Senha</label></td>
+                        <td>
+                            <input type="password" name="senha" placeholder="Digite sua senha" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" style="text-align:center;">
+                            <button type="submit">Cadastrar</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

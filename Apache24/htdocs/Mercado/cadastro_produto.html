@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="public/css/style.css" type="text/css" />
+</head>
+<body>
+
+<div class="lado-esquerdo">
+    <img src="public/IMG/cestalaranjas.jpg" alt="">
+</div>
+
+<div class="lado-direito">
+
+    <div class="topo-formulario">
+        <h1>Cadastro de Produtos</h1>
+    </div>
+
+    <div class="cadastro">
+
+        <form method="post" action="Salvar_produto.php">
+
+            <label>Nome do Produto</label>
+            <input type="text" name="nome" placeholder="Digite o Produto" />
+
+            <label>Preço</label>
+            <input type="text" name="preco" placeholder="Digite o Preço" />
+
+            <label>Quantidade</label>
+            <input type="number" name="quantidade" placeholder="Digite a quantidade" />
+
+            <label>Descrição</label>
+
+            <textarea name="descricao" rows="7" cols="40"></textarea>
+
+            <input type="submit" value="Salvar produto" />
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html

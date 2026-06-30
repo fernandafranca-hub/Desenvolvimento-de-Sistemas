@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.agenda{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 20px;
+}
+
+.login_esquerda{
+    padding: 30px;    
+    background-color: #3734df;     
+    width: 500px;
+    height: 550px;   
+    background-color: #3734df; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;    
+    margin: 20px;
+}
+
+
+.login_direita{
+    padding: 30px; 
+    width: 500px;
+    height: 550px;
+    border: 2px solid white;
+    border-radius: 0 10px 10px 0;         
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+    border: 3px solid #3734df;
+    margin: 20px;    
+}
+
+h1{
+    color: #fff;
+    font-size: 32px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+h2{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+h3{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+label{
+    display: block;
+    color: #3734df;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #3734df;
+    border-radius: 5px;
+    padding: 0 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #3734df;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.options label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+}
+
+.options a{
+    color: #3734df;
+    text-decoration: none;
+}
+
+.options a:hover{
+    text-decoration: underline;
+}
+
+
+.cadastro{
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.cadastro a{
+    color: #3734df;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cadastro a:hover{
+    text-decoration: underline;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+}
+

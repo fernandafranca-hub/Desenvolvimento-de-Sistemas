@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploração completa</title>
+    <link rel="icon" href="#">
+</head>
+
+<body>
+
+    <header id="topo">
+        <h1>Clássicos do <strong>ROCK</strong></h1>
+
+        <nav>
+            <a href="#inicio">Início</a> |
+            <a href="#musicas">Músicas</a> |
+            <a href="#formulario">Formulário</a> |
+            <a href="#audio">Audio</a>
+            <a href="#video">Video</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <h2><b>10</b> clássicos do rock internacional para uma <i>road trip</i></h2>
+            <img src="./images/road.webp" alt="Estrada para viagem">
+        </section>
+
+        <section id="musicas">
+
+            <h3><mark>Highway to Hell (AC/DC)</mark></h3>
+            <p>
+                Álbum: <em>Highway to Hell</em> – 1979 <br>
+                Roadtripper que se preze jamais poderá dispensar esses acordes distorcidos do AC/DC...
+            </p>
+
+            <h3><mark>Bohemian Rhapsody (Queen)</mark></h3>
+            <p>Álbum: <em>A Night at the Opera</em> – 1975</p>
+
+            <h3><mark>Sweet Child O' Mine (Guns N' Roses)</mark></h3>
+            <p>Álbum: <em>Appetite for Destruction</em> – 1987</p>
+
+            <h3><mark>Hotel California (Eagles)</mark></h3>
+            <p>Álbum: <em>Hotel California</em> – 1976</p>
+
+            <h3><mark>Back In Black (AC/DC)</mark></h3>
+            <p>Álbum: <em>Back In Black</em> – 1980</p>
+
+            <h3><mark>Smoke on the Water (Deep Purple)</mark></h3>
+            <p>Álbum: <em>Machine Head</em> – 1972</p>
+
+            <h3><mark>Stairway to Heaven (Led Zeppelin)</mark></h3>
+            <p>Álbum: <em>Led Zeppelin IV</em> – 1971</p>
+
+            <h3><mark>Don’t Stop Believin’ (Journey)</mark></h3>
+            <p>Álbum: <em>Escape</em> – 1981</p>
+
+            <h3><mark>Livin’ on a Prayer (Bon Jovi)</mark></h3>
+            <p>Álbum: <em>Slippery When Wet</em> – 1986</p>
+
+            <h3><mark>Sweet Home Alabama (Lynyrd Skynyrd)</mark></h3>
+            <p>Álbum: <em>Second Helping</em> – 1974</p>
+
+        </section>
+
+        <section id="formulario">
+
+            <h2><ins>Formulário de Avaliação de Rock</ins></h2>
+
+            <form>
+
+                <fieldset>
+                    <legend>Dados do Usuário</legend>
+
+                    <label>Nome:</label><br>
+                    <input type="text"><br><br>
+
+                    <label>Idade:</label><br>
+                    <input type="number"><br><br>
+
+                    <label>E-mail:</label><br>
+                    <input type="email"><br><br>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Preferências Musicais</legend>
+
+                    <label>Estilo:</label><br>
+                    <select>
+                        <optgroup label="Clássico">
+                            <option>AC/DC</option>
+                            <option>Queen</option>
+                        </optgroup>
+
+                        <optgroup label="Moderno">
+                            <option>Foo Fighters</option>
+                            <option>Green Day</option>
+                        </optgroup>
+                    </select>
+
+                    <br><br>
+
+                    <label>Comentário:</label><br>
+                    <textarea></textarea>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Avaliação</legend>
+
+                    <label>Nota (0 a 10):</label><br>
+                    <input type="range" min="0" max="10" oninput="resultado.value = value">
+
+                    <br><br>
+
+                    <label>Resultado:</label>
+                    <output id="resultado">5</output>
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+
+            </form>
+
+        </section>
+
+        <section>
+            <h2>Vamos curtir um pouco?</h2>
+        </section>
+
+        <section id="audio">
+
+            <h4>Ouça Agora</h4>
+
+            <table border="1">
+
+                <caption>Clássicos do Rock - Audio</caption>
+
+                <colgroup>
+                    <col>
+                    <col>
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th>Musica</th>
+                        <th>Player</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                    <tr>
+                        <td>Áudio</td>
+                        <td>Ouça Highway to Hell</td>
+                        <td>
+                            <audio controls>
+                                <source src="highway to hell.mp3">
+                            </audio>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Fim da seção de Áudio</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="video">
+            <h4>Assista Agora</h4>
+            <table border="1">
+                <caption>Clássicos do Rock - Video</caption>
+                <colgroup>
+                    <col>
+                    <col>
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th>Clipe</th>
+                        <th>Player</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Highway to Hell - AC/DC</td>
+                        <td>
+                            <video width="300" controls>
+                                <source src="DC - Highway to Hell (Official Video).mp4" </video>
+                            </video>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Fim da seção de Vídeo</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto HTML - Clássicos do Rock</p>
+        <a href="#topo">Voltar ao topo</a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" type="text/css" href="public/css/styles.css">
+</head>
+<body>  
+
+            <form action="cookie.php" method="post">
+                <label>E-mail</label>
+                <input type="text" name="username" placeholder="seu@email.com" required>
+
+                <label>Senha</label>
+                <input type="password" name="password" placeholder="Digite sua senha" required>
+                <label>
+                    <input type="checkbox" name="lembrar" /> 
+                    Lembrar-me
+                </label>   
+                <button type="submit">Entrar</button>
+            </form>   
+</body>
+
+</html>
+
+
+<?php
+
+ if($_SERVER["REQUEST_METHOD"] == 'POST')
+ {
+    $email = $_POST["username"];
+    $senha = $_POST["password"];
+    
+    if(isset($_POST["lembrar"]))
+    {
+        $valor = base64_encode($email);
+        $duracao = strtotime("+1 days");
+        setcookie("lembrar",$valor,$duracao);
+    }
+}
+
+?>
+

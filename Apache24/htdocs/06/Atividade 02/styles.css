@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-size: 10px;
+  
+}
+
+.h2_amarelo {
+    background-color: yellow;
+    border-radius: 15px;
+    font-size: 12px;
+    display: inline-block; /* faz o fundo acompanhar só o texto */
+    padding: 5px 15px 5px 15px;
+}
+
+.h2_bold {
+    font-weight: bold;
+    font-size: 12px;
+}

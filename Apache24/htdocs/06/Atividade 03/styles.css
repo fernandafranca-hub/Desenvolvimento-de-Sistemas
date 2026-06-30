@@ -1,0 +1,95 @@
+body {       
+    background-color: white;
+    font-family: Arial;
+    font-size: 14px;
+    color: green;    
+   
+}
+
+.dados-cadastro {   
+    display: flex;
+    border: 2px solid #4caf50;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e8f5e9;
+}
+
+.dados-cadastro img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    top: 0;
+    left: 0;   
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+fieldset {
+    border: 1px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.dados {
+    width: 48%; 
+    float: left;
+    margin: 10px 1%;
+    background-image: url(imagens/2.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.localizacao {
+    width: 48%;
+    background-image: url(imagens/3.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;    
+    float: left;
+    margin: 10px 1%;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.idade {
+    column-count: 2;
+    background-image: url(imagens/4.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 95%;   
+    margin: 10px 10px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.esportes {
+    background-image: url(imagens/5.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 95%;   
+    margin: 10px 10px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.comentario {    
+    background-image: url(imagens/6.jfif);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    width: 95%;
+    margin: 10px 10px;
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.dados-cadastro::after {
+    content: "";
+    display: block;
+    clear: both;
+}

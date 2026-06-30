@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.topo1 {
+    width: 30%;
+    background-color: lightblue;
+    color: black;
+    padding: 5px;
+}
+
+.topo2 {
+    width: 60%;
+    background-color: darkblue;
+}
+
+td {
+    padding: 5px;
+}
+
+input, select {
+    margin: 2px;
+}
